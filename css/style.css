@@ -6,15 +6,16 @@
 
 body {
     background-color: #fff;
+    color: #fff;
 }
 
 .pad-20 {
     padding: 20px 0;
 }
 
-/* .container-page {
-    max-width: 70%;
-} */
+.padt-40 {
+    padding-top: 40px;
+}
 
 /* STYLE SFONDI */
     .bg-header {
@@ -29,6 +30,39 @@ body {
         background-color: #3a546d;
     }
 
+    /* SFONDI PORTFOLIO */
+
+    .violet {
+        background-color: #ba4b63;
+    }
+
+    .cyan {
+        background-color: #1ea4b6;
+    }
+
+    .black {
+        background-color: #000;
+    }
+
+    .lightblue{
+        background-color: #1c83c1; 
+    }
+
+    .blue {
+        background-color: #0e38b5;
+    }
+
+    .pink {
+        background-color: #ccb2a3;
+    }
+
+/* FINE SFONDI PORTFOLIO */
+
+/* FINE STYLE SFONDI */
+
+
+/* STYLE COLONNE */
+
     .col-2 .content i{
         padding: 5px 10px;
         color: grey;
@@ -39,37 +73,8 @@ body {
         display: none;
     }
 
-    
+/* FINE STYLE COLONNE */
 
-    /* SFONDI PORTFOLIO */
-
-        .violet {
-            background-color: #ba4b63;
-        }
-
-        .cyan {
-            background-color: #1ea4b6;
-        }
-
-        .black {
-            background-color: #000;
-        }
-
-        .lightblue{
-            background-color: #1c83c1; 
-        }
-
-        .blue {
-            background-color: #0e38b5;
-        }
-
-        .pink {
-            background-color: #ccb2a3;
-        }
-
-    /* FINE SFONDI PORTFOLIO */
-
-/* FINE STYLE SFONDI */
 
 /* INIZIO HEADER */
         h6 {
@@ -86,8 +91,46 @@ body {
         }
 /* FINE HEADER */
 
+/* INIZIO PROFILO UTENTE */
+        #profile .content img{
+            max-width: 200px;
+        }
+
+        #profile .content h1 {
+            font-size: 40px;
+            font-weight: 600;
+        }
+
+        #profile .content i {
+            font-size: 25px;
+            padding-top: 10px;
+        }
+
+        #profile .content p {
+            padding-top: 10px;
+            margin-bottom: 40px;
+        }
+/* FINE PROFILO UTENTE */
+
 /* INIZIO PORTFOLIO */
 
+        .mg-bot {
+            margin-bottom: 60px;
+        }
+
+        .content h2{
+            color: #000;
+            font-weight: 600;
+        }
+
+        .content.padt-40 i{
+            color: #000;
+        }
+
+        .content .img-port {
+            width: 100%;
+            border-radius: 20px;
+        }
 
 /* FINE PORTFOLIO */
 
@@ -107,6 +150,16 @@ body {
                 margin: 0 auto;
             }
         }
+        /* FINE QUERY TABLET */
+
+        /* INIZIO QUERY DESKTOP*/
+
+            @media screen and (min-width: 960px){
+                #profile .content h1 {
+                    font-size: 50px;
+                    font-weight: 600;
+                }
+            }
         /* FINE QUERY TABLET */
 /* FINE MEDIA QUERY */
 
