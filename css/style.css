@@ -8,13 +8,13 @@ body {
     background-color: #fff;
 }
 
-.col-6, .col-12{
-    height: 50px;
+.pad-20 {
+    padding: 20px 0;
 }
 
-.content{
-    border: 1px solid black;
-}
+/* .container-page {
+    max-width: 70%;
+} */
 
 /* STYLE SFONDI */
     .bg-header {
@@ -27,6 +27,16 @@ body {
 
     .greyinfo {
         background-color: #3a546d;
+    }
+
+    .col-2 .content i{
+        padding: 5px 10px;
+        color: grey;
+        border: 1px solid #fff;
+    }
+
+    .col-5 {
+        display: none;
     }
 
     /* SFONDI PORTFOLIO */
@@ -60,6 +70,38 @@ body {
 /* FINE STYLE SFONDI */
 
 /* INIZIO HEADER */
-        
+        h6 {
+            color: #fff;
+            font-weight: 700;
+            padding-top: 5px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: 700;
+            font-size: 15px;
+            margin-left: 10px;
+        }
 /* FINE HEADER */
+
+/* INIZIO PORTFOLIO */
+        
+
+/* FINE PORTFOLIO */
+
+/* MEDIA QUERY */
+        /* INIZIO QUERY TABLET */
+        @media screen and (min-width: 720px){
+
+            .col-2 {
+                display: none;
+            }
+
+            .col-5 {
+                display: block;
+            }
+        }
+        /* FINE QUERY TABLET */
+/* FINE MEDIA QUERY */
 
