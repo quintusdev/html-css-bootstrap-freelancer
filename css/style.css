@@ -35,9 +35,11 @@ body {
         border: 1px solid #fff;
     }
 
-    .col-5 {
+    .col-4 {
         display: none;
     }
+
+    
 
     /* SFONDI PORTFOLIO */
 
@@ -80,26 +82,29 @@ body {
             text-decoration: none;
             color: #fff;
             font-weight: 700;
-            font-size: 15px;
-            margin-left: 10px;
+            font-size: 12px;
         }
 /* FINE HEADER */
 
 /* INIZIO PORTFOLIO */
-        
+
 
 /* FINE PORTFOLIO */
 
 /* MEDIA QUERY */
         /* INIZIO QUERY TABLET */
         @media screen and (min-width: 720px){
-
             .col-2 {
                 display: none;
             }
 
-            .col-5 {
+            .col-4 {
                 display: block;
+            }
+            
+            .container-page{
+                max-width: 80%;
+                margin: 0 auto;
             }
         }
         /* FINE QUERY TABLET */
