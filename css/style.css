@@ -110,8 +110,12 @@ body {
 
 /* INIZIO ABOUT */
 
-    .pabout{
+    .row-about{
         width: 50%;
+        margin: 0 auto;
+    }
+
+    .pabout{
         font-size: 20px;
         margin: 30px auto;
     }
