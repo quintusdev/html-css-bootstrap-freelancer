@@ -31,6 +31,10 @@ body {
         border: 1px solid #fff;
     }
 
+    .col-white {
+        color: #fff;
+    }
+
     .filter-nav {
         filter: invert(1);
     }
@@ -176,6 +180,7 @@ body {
 
     .content .form-control {
         border: none;
+        border-radius: 0px;
         border-bottom: 1px solid rgb(146, 146, 146);
         margin-top: 10px;
     }
