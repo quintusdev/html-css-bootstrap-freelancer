@@ -231,13 +231,6 @@ body {
 /* MEDIA QUERY */
         /* INIZIO QUERY TABLET */
         @media screen and (min-width: 720px){
-            .col-2 {
-                display: none;
-            }
-
-            .col-5 {
-                display: block;
-            }
             
             .container-page{
                 max-width: 80%;
