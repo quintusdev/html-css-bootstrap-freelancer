@@ -18,8 +18,13 @@ body {
     padding-top: 40px;
 }
 
+.padt {
+    padding-top: 100px;
+}
+
+
 /* STYLE SFONDI */
-    header {
+    header, .header, .content .list-inline.black .list-inline-item span{
         background-color: #2c3e50;
     }
 
@@ -41,10 +46,6 @@ body {
 
     .greyinfo {
         background-color: #3a546d;
-    }
-
-    .content .list-inline.black .list-inline-item span{
-        background-color: #000;
     }
 
     .vertic-al {
@@ -125,7 +126,7 @@ body {
 /* INIZIO PORTFOLIO */
 
     .black {
-        color: #000;
+        color: #2c3e50;
     }
 
     .mg-bot {
@@ -138,7 +139,7 @@ body {
     }
 
     .content.padt-40 i{
-        color: #000;
+        color: #2c3e50;
     }
 
     .content .img-port {
